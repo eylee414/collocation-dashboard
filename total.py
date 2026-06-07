@@ -8,7 +8,7 @@ st.set_page_config(page_title="분야별 연어 분석기", layout="wide")
 st.title("📊 분야별 통합 연어 분석 대시보드")
 st.markdown("경제, 정치, 사회 분야별 핵심 어휘의 좌우 결합 패턴을 탐색합니다.")
 
-DATA_DIR = "data"
+DATA_DIR = "."
 
 # 1. 폴더 존재 여부 확인
 if not os.path.exists(DATA_DIR):
